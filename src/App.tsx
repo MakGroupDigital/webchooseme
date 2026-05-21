@@ -5,7 +5,7 @@ type IconName = 'feed' | 'news' | 'perf' | 'live' | 'wallet' | 'profile' | 'mess
 
 const APP_URL = 'https://choosemeapp.gtsarlu.com/';
 const LOGIN_URL = 'https://choosemeapp.gtsarlu.com/#/login';
-const REDIRECT_PATH = '/redirection';
+const REDIRECT_PATH = '/#redirection';
 
 const navItems = [
   ['Accueil', 'accueil'],
@@ -106,7 +106,7 @@ const pricing = [
 ];
 
 function App() {
-  const isRedirectPage = window.location.pathname === REDIRECT_PATH;
+  const isRedirectPage = window.location.hash === '#redirection';
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeTab, setActiveTab] = useState(0);
   const [showSplash, setShowSplash] = useState(true);
