@@ -18,23 +18,23 @@ const navItems = [
 const roles = [
   {
     icon: 'perf',
-    title: 'Athletes',
-    text: 'Publie tes performances, complete ton profil et montre ton niveau aux bonnes personnes.',
+    title: 'Athlètes',
+    text: 'Publie tes performances, complète ton profil et montre ton niveau aux bonnes personnes.',
   },
   {
     icon: 'search',
     title: 'Recruteurs',
-    text: 'Repere les talents par sport, poste, ville, video, statistiques et signaux de progression.',
+    text: 'Repère les talents par sport, poste, ville, vidéo, statistiques et signaux de progression.',
   },
   {
     icon: 'club',
     title: 'Clubs',
-    text: 'Organise tes recherches, compare les profils et transforme les coups de coeur en essais.',
+    text: 'Organise tes recherches, compare les profils et transforme les coups de cœur en essais.',
   },
   {
     icon: 'press',
     title: 'Presse',
-    text: 'Trouve des histoires sportives, des reportages et des moments forts prets a etre suivis.',
+    text: 'Trouve des histoires sportives, des reportages et des moments forts prêts à être suivis.',
   },
 ] satisfies Array<{ icon: IconName; title: string; text: string }>;
 
@@ -42,26 +42,26 @@ const featureTabs = [
   {
     icon: 'feed',
     title: 'Feed',
-    label: 'Videos verticales',
+    label: 'Vidéos verticales',
     text: 'Un fil court et direct pour regarder les performances, aimer, commenter, partager et ouvrir le profil.',
   },
   {
     icon: 'profile',
     title: 'Profil',
     label: 'Carte sportive',
-    text: 'Photo, ville, sport, poste, taille, poids, statistiques, videos et informations utiles au meme endroit.',
+    text: 'Photo, ville, sport, poste, taille, poids, statistiques, vidéos et informations utiles au même endroit.',
   },
   {
     icon: 'live',
     title: 'Live',
     label: 'Matchs et pronostics',
-    text: 'Calendrier, score, choix de pronostic, recompenses en points et suivi des matchs importants.',
+    text: 'Calendrier, score, choix de pronostic, récompenses en points et suivi des matchs importants.',
   },
   {
     icon: 'search',
     title: 'Talents',
     label: 'Recherche recruteur',
-    text: 'Filtres simples pour trouver un joueur, sauvegarder un profil et demarrer une conversation.',
+    text: 'Filtres simples pour trouver un joueur, sauvegarder un profil et démarrer une conversation.',
   },
 ] satisfies Array<{ icon: IconName; title: string; label: string; text: string }>;
 
@@ -70,26 +70,26 @@ const pricing = [
     name: 'Gratuit',
     price: '0 USD',
     period: '',
-    items: ['Compte personnel', 'Acces au feed', 'Profil de base', 'Live et wallet'],
+    items: ['Compte personnel', 'Accès au feed', 'Profil de base', 'Live et wallet'],
   },
   {
-    name: 'Pro Athlete',
+    name: 'Pro Athlète',
     price: '1 USD',
     period: '/mois',
-    items: ['Videos illimitees', 'Statistiques avancees', 'Meilleure visibilite', 'Profil prioritaire'],
+    items: ['Vidéos illimitées', 'Statistiques avancées', 'Meilleure visibilité', 'Profil prioritaire'],
     featured: true,
   },
   {
     name: 'Recruteur Pro',
     price: '10 USD',
     period: '/trimestre',
-    items: ['3 premiers mois gratuits', 'Recherche avancee', 'Favoris', 'Contact direct'],
+    items: ['3 premiers mois gratuits', 'Recherche avancée', 'Favoris', 'Contact direct'],
   },
   {
     name: 'Club',
     price: '10 USD',
     period: '/trimestre',
-    items: ['3 premiers mois gratuits', 'Pipeline de talents', 'Support prioritaire', 'Acces club'],
+    items: ['3 premiers mois gratuits', 'Pipeline de talents', 'Support prioritaire', 'Accès club'],
   },
   {
     name: 'Presse',
@@ -101,7 +101,7 @@ const pricing = [
     name: 'Visiteur',
     price: '0 USD',
     period: '',
-    items: ['Decouverte du feed', 'Actus', 'Live public', 'Creation de compte possible'],
+    items: ['Découverte du feed', 'Actus', 'Live public', 'Création de compte possible'],
   },
 ];
 
@@ -207,8 +207,8 @@ function RedirectPage() {
           <img src="/images/logo.png" alt="" />
         </span>
         <span className="eyebrow">Choose-Me</span>
-        <h1>Ouverture de l'application</h1>
-        <p>Tu vas etre redirige vers Choose-Me dans {seconds} seconde{seconds > 1 ? 's' : ''}.</p>
+        <h1>Ouverture de l’application</h1>
+        <p>Tu vas être redirigé vers Choose-Me dans {seconds} seconde{seconds > 1 ? 's' : ''}.</p>
         <div className="redirect-progress">
           <i />
         </div>
@@ -294,9 +294,9 @@ function Hero() {
       </div>
       <div className="hero-copy">
         <span className="eyebrow">Choose-Me</span>
-        <h1>#1 reseau social sportif africain de decouverte des talents.</h1>
+        <h1>#1 réseau social sportif africain de découverte des talents.</h1>
         <p>
-          Publie tes performances, suis les matchs, gagne en visibilite et connecte-toi aux recruteurs, clubs et medias
+          Publie tes performances, suis les matchs, gagne en visibilité et connecte-toi aux recruteurs, clubs et médias
           qui cherchent les talents de demain.
         </p>
       </div>
@@ -311,17 +311,17 @@ function Hero() {
           </a>
         </div>
         <div className="hero-metrics" aria-label="Fonctions principales">
-          <span><b>Feed</b> video</span>
+          <span><b>Feed</b> vidéo</span>
           <span><b>Live</b> match</span>
           <span><b>Wallet</b> points</span>
         </div>
       </div>
 
-      <div className="hero-visual" aria-label="Apercu de Choose Me">
+      <div className="hero-visual" aria-label="Aperçu de Choose Me">
         <IPhoneFeed />
         <div className="hero-card">
           <AppIcon name="perf" />
-          <strong>Performance publiee</strong>
+          <strong>Performance publiée</strong>
           <span>Visible dans le feed</span>
         </div>
       </div>
@@ -341,13 +341,13 @@ function AppPreview({
   return (
     <section className="section app-preview" id="app">
       <div className="section-heading">
-        <span className="eyebrow">Dans l'app</span>
-        <h2>Chaque ecran sert une action claire.</h2>
-        <p>Regarder une video, ouvrir un profil, pronostiquer, sauvegarder un talent ou envoyer un message.</p>
+        <span className="eyebrow">Dans l’app</span>
+        <h2>Chaque écran sert une action claire.</h2>
+        <p>Regarder une vidéo, ouvrir un profil, pronostiquer, sauvegarder un talent ou envoyer un message.</p>
       </div>
 
       <div className="preview-grid">
-        <div className="tab-list" role="tablist" aria-label="Apercus de l'application">
+      <div className="tab-list" role="tablist" aria-label="Aperçus de l’application">
           {featureTabs.map((item, index) => (
             <button
               key={item.title}
@@ -387,8 +387,8 @@ function Roles() {
   return (
     <section className="section" id="talents">
       <div className="section-heading">
-        <span className="eyebrow">Pour tout l'ecosysteme</span>
-        <h2>Un espace different selon ton role.</h2>
+        <span className="eyebrow">Pour tout l’écosystème</span>
+        <h2>Un espace différent selon ton rôle.</h2>
       </div>
       <div className="role-grid">
         {roles.map((role) => (
@@ -408,14 +408,14 @@ function HowItWorks() {
     <section className="section journey">
       <div className="section-heading">
         <span className="eyebrow">Parcours</span>
-        <h2>Tu crees ton compte, tu choisis ton role, tu avances.</h2>
+        <h2>Tu crées ton compte, tu choisis ton rôle, tu avances.</h2>
       </div>
       <div className="journey-grid">
         {[
-          ['01', 'Choisis ton type de compte', 'Athlete, recruteur, club ou presse.'],
-          ['02', 'Complete ton profil', 'Sport, poste, ville, photo, stats et videos.'],
+          ['01', 'Choisis ton type de compte', 'Athlète, recruteur, club ou presse.'],
+          ['02', 'Complète ton profil', 'Sport, poste, ville, photo, stats et vidéos.'],
           ['03', 'Entre dans le feed', 'Tes performances deviennent visibles.'],
-          ['04', 'Connecte-toi', 'Messages, favoris, live, wallet et opportunites.'],
+          ['04', 'Connecte-toi', 'Messages, favoris, live, wallet et opportunités.'],
         ].map(([number, title, text]) => (
           <article className="journey-card" key={number}>
             <span>{number}</span>
@@ -435,7 +435,7 @@ function LiveWallet() {
         <span className="eyebrow">Live & wallet</span>
         <h2>Les matchs deviennent interactifs.</h2>
         <p>
-          Suis les rencontres, fais tes pronostics, consulte tes points et garde une trace de tes resultats dans le
+          Suis les rencontres, fais tes pronostics, consulte tes points et garde une trace de tes résultats dans le
           wallet.
         </p>
         <div className="inline-stats">
@@ -462,11 +462,11 @@ function RecruiterSection() {
         <span className="eyebrow">Recruteurs & clubs</span>
         <h2>Moins de bruit, plus de profils exploitables.</h2>
         <p>
-          Un recruteur peut explorer les talents, lire les statistiques, ouvrir les videos, sauvegarder un profil et
+          Un recruteur peut explorer les talents, lire les statistiques, ouvrir les vidéos, sauvegarder un profil et
           prendre contact sans perdre le fil.
         </p>
         <div className="check-list">
-          {['Recherche par sport et poste', 'Profils publics detailles', 'Messages directs', 'Talents favoris'].map(
+          {['Recherche par sport et poste', 'Profils publics détaillés', 'Messages directs', 'Talents favoris'].map(
             (item) => (
               <span key={item}>
                 <i>✓</i>
@@ -485,21 +485,21 @@ function Proof() {
     <section className="section proof">
       <div className="proof-card large">
         <span className="eyebrow">Feed</span>
-        <h2>Le premier reflexe: regarder les performances.</h2>
+        <h2>Le premier réflexe : regarder les performances.</h2>
         <p>
-          Choose-Me met la video au centre, puis donne les bons chemins vers le profil, les messages, le live et les
+          Choose-Me met la vidéo au centre, puis donne les bons chemins vers le profil, les messages, le live et les
           reportages.
         </p>
       </div>
       <div className="proof-card">
         <AppIcon name="message" />
         <strong>Contact direct</strong>
-        <span>Un profil interesse un recruteur ? La conversation peut commencer.</span>
+        <span>Un profil intéresse un recruteur ? La conversation peut commencer.</span>
       </div>
       <div className="proof-card">
         <AppIcon name="news" />
         <strong>Explorer</strong>
-        <span>Talents, actualites et reportages restent accessibles selon le role.</span>
+        <span>Talents, actualités et reportages restent accessibles selon le rôle.</span>
       </div>
     </section>
   );
@@ -510,7 +510,7 @@ function Pricing() {
     <section className="section pricing" id="tarifs">
       <div className="section-heading">
         <span className="eyebrow">Tarifs</span>
-        <h2>Commence gratuitement, evolue quand tu es pret.</h2>
+        <h2>Commence gratuitement, évolue quand tu es prêt.</h2>
       </div>
       <div className="pricing-grid">
         {pricing.map((plan) => (
@@ -542,10 +542,10 @@ function CreateAccount() {
   return (
     <section className="create-account" id="creer-compte">
       <div className="create-copy">
-        <span className="eyebrow">Creation de compte</span>
-        <h2>Pas de demande d'acces. Tu t'inscris directement.</h2>
+        <span className="eyebrow">Création de compte</span>
+        <h2>Pas de demande d’accès. Tu t’inscris directement.</h2>
         <p>
-          Lance l'app, choisis ton type de compte, complete ton profil et commence a publier ou explorer les talents.
+          Lance l’app, choisis ton type de compte, complète ton profil et commence à publier ou explorer les talents.
         </p>
         <a className="primary-button big" href={REDIRECT_PATH}>
           Commencer <span>→</span>
@@ -561,14 +561,14 @@ function Faq() {
     <footer className="faq-footer">
       <div className="section-heading">
         <span className="eyebrow">Questions rapides</span>
-        <h2>Avant d'entrer dans Choose-Me.</h2>
+        <h2>Avant d’entrer dans Choose-Me.</h2>
       </div>
       <div className="faq-grid">
         {[
-          ['Qui peut creer un compte ?', 'Athletes, recruteurs, clubs, presse et visiteurs peuvent demarrer depuis l onboarding.'],
-          ['Que publie un athlete ?', 'Des videos de performance, ses informations sportives et les elements utiles de son profil.'],
-          ['A quoi sert le wallet ?', 'Il accompagne les pronostics et les points lies aux matchs live.'],
-          ['Le site remplace-t-il l app ?', "Non. Il presente l experience et envoie vers la creation de compte."],
+          ['Qui peut créer un compte ?', 'Athlètes, recruteurs, clubs, presse et visiteurs peuvent démarrer depuis le parcours d’inscription.'],
+          ['Que publie un athlète ?', 'Des vidéos de performance, ses informations sportives et les éléments utiles de son profil.'],
+          ['À quoi sert le wallet ?', 'Il accompagne les pronostics et les points liés aux matchs live.'],
+          ['Le site remplace-t-il l’app ?', 'Non. Il présente l’expérience et envoie vers la création de compte.'],
         ].map(([question, answer]) => (
           <details key={question}>
             <summary>{question}</summary>
@@ -589,7 +589,7 @@ function Faq() {
         </div>
       </div>
       <div className="footer-bottom">
-        <small>© 2026 Choose-Me. Tous droits reserves.</small>
+        <small>© 2026 Choose-Me. Tous droits réservés.</small>
         <a href={REDIRECT_PATH}>Commencer</a>
       </div>
     </footer>
@@ -610,7 +610,7 @@ function IPhoneFeed() {
         </div>
         <div className="feed-caption">
           <strong>@junior.m</strong>
-          <p>Acceleration, controle, frappe croisee.</p>
+          <p>Accélération, contrôle, frappe croisée.</p>
           <span>#Football #Attaquant #Kinshasa</span>
         </div>
         <BottomNavMock active="Feed" />
@@ -638,7 +638,7 @@ function AndroidProfile() {
           </div>
         </div>
         <div className="profile-stats">
-          <span><b>34</b> videos</span>
+          <span><b>34</b> vidéos</span>
           <span><b>14</b> matchs</span>
           <span><b>8</b> buts</span>
         </div>
@@ -674,7 +674,7 @@ function LivePhone() {
       <div className="reward-card">
         <AppIcon name="wallet" />
         <div>
-          <span>Recompense</span>
+          <span>Récompense</span>
           <strong>+120 points</strong>
         </div>
       </div>
@@ -693,7 +693,7 @@ function WalletPanel() {
         <i />
         <i />
       </div>
-      <p>Pronostics gagnes, points recus et historique des matchs.</p>
+      <p>Pronostics gagnés, points reçus et historique des matchs.</p>
     </div>
   );
 }
@@ -714,7 +714,7 @@ function ScoutPhone() {
         <img src="/images/football.jpg" alt="" />
         <div>
           <strong>Junior M.</strong>
-          <span>Compatibilite 91%</span>
+          <span>Compatibilité 91%</span>
         </div>
         <button>Voir</button>
       </div>
@@ -722,7 +722,7 @@ function ScoutPhone() {
         <img src="/images/basketball.jpg" alt="" />
         <div>
           <strong>Sarah K.</strong>
-          <span>Compatibilite 84%</span>
+          <span>Compatibilité 84%</span>
         </div>
         <button>Voir</button>
       </div>
@@ -741,10 +741,10 @@ function SignupPhone() {
       </div>
       <div className="account-types">
         {[
-          ['Athlete', 'Publier mes performances'],
+          ['Athlète', 'Publier mes performances'],
           ['Recruteur', 'Trouver des talents'],
           ['Club', 'Suivre mes prospects'],
-          ['Presse', 'Creer des reportages'],
+          ['Presse', 'Créer des reportages'],
         ].map(([title, text], index) => (
           <div className={index === 0 ? 'account-type active' : 'account-type'} key={title}>
             <span>{title}</span>
