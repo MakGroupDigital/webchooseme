@@ -586,6 +586,9 @@ function Faq() {
           <a href="#app">App</a>
           <a href="#tarifs">Tarifs</a>
           <a href={LOGIN_URL}>Se connecter</a>
+          <a href="/confidentialite">Confidentialité</a>
+          <a href="/conditions">Conditions d’utilisation</a>
+          <a href="/suppression-compte">Supprimer mon compte</a>
         </div>
       </div>
       <div className="footer-bottom">
